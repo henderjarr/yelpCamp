@@ -1,0 +1,18 @@
+<% include partials/header%>
+    <div class="container">
+        <h2>this is campgrounds</h2>
+        <a href="/campgrounds/new">add a camp</a>
+    </div>
+    <br>
+
+    <%campgrounds.forEach((data)=>{%>
+        <div class="container">
+            <div class="jumbotron">
+                <h4>
+                    <%=data.name%>
+                </h4>
+                <img id="imageSizes" src="<%=data.image%>" alt="<%data.name%>">
+            </div>
+        </div>
+        <%})%>
+            <% include partials/footer%>
