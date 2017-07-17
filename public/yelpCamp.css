@@ -7,3 +7,14 @@
 body{
     background: pink;
 }
+#campflx{
+    display:flex;
+    flex-wrap: wrap;
+}
+.newCampForm{
+    width: 30%;
+    margin: 0 auto;
+}
+.newCheader{
+    text-align: center;
+}
